@@ -1,6 +1,12 @@
 #include <iostream>
-using namespace std;
+#include <stdio.h>
+#include "info.h"
+//using namespace std;
+
 
 int main() {
-	cout << "이것은 예시입니다";
+	std::cout << "이것은 예시입니다\n";
+	std::cout << "Program Execute Result : " << plus();
+
+	return 0;
 }
